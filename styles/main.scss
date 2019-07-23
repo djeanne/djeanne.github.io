@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+$bgcolor: #242124;
+$textcolor: #BBBBBB;
+$bgeditor: #1B1B1B;
+$bordereditor: #696969;
+$shadowcolor: #343434;
+$initcolor: #F67BAA;
+$funccolor: #20B2AA;
+$todocolor: #808080;
+$packagelink: #90EE90;
+
+body {
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-family: 'Source Code Pro', Courier, monospace;
+}
+
+p.terminal {
+    margin: 0px;
+    padding: 0px;
+}
+
+p.import {
+    text-indent: 4.7em;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.todo {
+    text-indent: 2.7em;
+    color: $todocolor;
+}
+
+p.next {
+    margin: 15px;
+}
+
+.jumbotron {
+    height: 100vh;
+    background-color: $bgcolor;
+}
+
+.main {
+    height: 100vh;
+}
+
+.editor {
+    border: 1px solid $bordereditor;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: $bgeditor;
+    color: $textcolor;
+    box-shadow: 5px 8px 18px $shadowcolor;
+}
+
+.init {
+    color: $initcolor;
+}
+
+.func {
+    color: $funccolor;
+}
+
+.packs {
+    text-decoration: none;
+    text-decoration-style: none;
+    color: $packagelink;
+}
+
+a.packs:active, a.packs:hover {
+    color: $packagelink;
+    text-decoration: underline;
+}
+
+.nav-tabs{
+    background-color:$bgcolor !important;
+}
+
+a.nav-link {
+    color: $funccolor !important;
+}
+
+a.active.nav-link {
+    background-color: $bgeditor !important;
+    color: $packagelink !important;
+}
+
+a.contacts {
+    color: $textcolor !important;
+}
+
+.mailto {
+    font-size: larger;
+}
+
+.footer {
+    font-size: smaller;
+}
