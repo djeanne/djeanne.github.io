@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+body {
+  background-color: #242124;
+  color: #BBBBBB;
+  font-family: 'Source Code Pro', Courier, monospace; }
+
+p.terminal {
+  margin: 0px;
+  padding: 0px; }
+
+p.import {
+  text-indent: 4.7em;
+  margin: 0px;
+  padding: 0px; }
+
+p.todo {
+  text-indent: 2.7em;
+  color: #808080; }
+
+p.next {
+  margin: 15px; }
+
+.jumbotron {
+  height: 100vh;
+  background-color: #242124; }
+
+.main {
+  height: 100vh; }
+
+.editor {
+  border: 1px solid #696969;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #1B1B1B;
+  color: #BBBBBB;
+  box-shadow: 5px 8px 18px #343434; }
+
+.init {
+  color: #F67BAA; }
+
+.func {
+  color: #20B2AA; }
+
+.packs {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: #90EE90; }
+
+a.packs:active, a.packs:hover {
+  color: #90EE90;
+  text-decoration: underline; }
+
+.nav-tabs {
+  background-color: #242124 !important; }
+
+a.nav-link {
+  color: #20B2AA !important; }
+
+a.active.nav-link {
+  background-color: #1B1B1B !important;
+  color: #90EE90 !important; }
+
+a.contacts {
+  color: #BBBBBB !important; }
+
+.mailto {
+  font-size: larger; }
+
+.footer {
+  font-size: smaller; }
+
+/*# sourceMappingURL=main.css.map */
